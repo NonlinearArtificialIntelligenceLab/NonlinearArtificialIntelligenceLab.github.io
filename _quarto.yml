@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "NAIL blogspace"
+  site-url: https://nonlinearartificialintelligencelab.github.io
+  description: "Rich content for NAIL"
+  navbar:
+    collapse: true
+    right:
+      - text: NCSU Home
+        href: https://webpublishing.oit.ncsu.edu/nail/
+      - about.qmd
+      - icon: github
+        href: https://github.com/NonlinearArtificialIntelligenceLab
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+format:
+  html:
+    html-math-method: katex
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    citations-hover: true
+    footnotes-hover: true
+
+
+

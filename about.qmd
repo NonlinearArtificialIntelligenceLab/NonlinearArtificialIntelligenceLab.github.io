@@ -1,0 +1,16 @@
+---
+title: "About"
+image: HypertorusColor.png
+about:
+  template: jolla
+  links:
+    - icon: brick.jpg
+      text: Main Website
+      href: https://webpublishing.oit.ncsu.edu/nail/
+    - icon: github
+      text: Github
+      href: https://github.com/NonlinearArtificialIntelligenceLab
+
+---
+
+Rich content blog for the Nonlinear Artificial Intelligence Lab at NC State University.
