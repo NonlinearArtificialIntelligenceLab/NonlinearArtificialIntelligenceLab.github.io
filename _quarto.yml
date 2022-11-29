@@ -1,10 +1,15 @@
 project:
   type: website
+execute: 
+  freeze: auto
 
 website:
   title: "NAIL blogspace"
   site-url: https://nonlinearartificialintelligencelab.github.io
   description: "Rich content for NAIL"
+  reader-mode: true
+  sidebar: 
+    search: true
   navbar:
     collapse: true
     right:
@@ -20,6 +25,11 @@ website:
   search:
     location: navbar
     type: overlay
+  page-footer:
+    center: 
+      - text: "© 2022 NAIL"
+        href: https://webpublishing.oit.ncsu.edu/nail/
+
 format:
   html:
     html-math-method: katex

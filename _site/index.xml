@@ -12,27 +12,6 @@
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Tue, 29 Nov 2022 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Welcome to NAIL</title>
-  <dc:creator>Anil Radhakrishnan</dc:creator>
-  <link>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is the first post on this blog. Welcome!</p>
-<p>We are a research group at North Carolina State University interested in using the structure and chaos in physics to improve artificial intelligence systems.</p>
-
-
-<!-- -->
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</guid>
-  <pubDate>Tue, 29 Nov 2022 05:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Blogging with quarto</title>
   <dc:creator>Anil Radhakrishnan</dc:creator>
   <link>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</link>
@@ -90,6 +69,27 @@
   <guid>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</guid>
   <pubDate>Tue, 29 Nov 2022 05:00:00 GMT</pubDate>
   <media:content url="https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/HNN.png" medium="image" type="image/png" height="152" width="144"/>
+</item>
+<item>
+  <title>Welcome to NAIL</title>
+  <dc:creator>Anil Radhakrishnan</dc:creator>
+  <link>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post on this blog. Welcome!</p>
+<p>We are a research group at North Carolina State University interested in using the structure and chaos in physics to improve artificial intelligence systems.</p>
+
+
+<!-- -->
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</guid>
+  <pubDate>Tue, 29 Nov 2022 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

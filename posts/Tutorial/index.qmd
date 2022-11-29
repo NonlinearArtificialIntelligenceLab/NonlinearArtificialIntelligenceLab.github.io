@@ -55,3 +55,5 @@ $$
 $$
 
 You can also add citations to the blog post by @noauthor_quarto_nodate. This will be automatically added to the bibliography.
+
+Finally you can update the site by using `quarto render` and then `quarto publish gh-pages` to publish the site to github pages.
