@@ -4,7 +4,7 @@ image: HypertorusColor.png
 about:
   template: jolla
   links:
-    - icon: brick.jpg
+    - icon: bi-house-up
       text: Main Website
       href: https://webpublishing.oit.ncsu.edu/nail/
     - icon: github

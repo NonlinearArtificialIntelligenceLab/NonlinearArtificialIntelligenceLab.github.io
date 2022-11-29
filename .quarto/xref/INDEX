@@ -10,5 +10,8 @@
   },
   "about.qmd": {
     "about.html": "bc892a44"
+  },
+  "posts/Tutorial/index.qmd": {
+    "index.html": "fe55f393"
   }
 }

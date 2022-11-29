@@ -1,0 +1,11 @@
+{
+  "hash": "2c706eafd47d03062ea2f69520c4fd1e",
+  "result": {
+    "markdown": "---\ntitle: Blogging with quarto\nauthor: Anil Radhakrishnan\ndate: '2022-11-29'\ncategories:\n  - tutorial\nbibliography: references.bib\n---\n\nTo develop a draft of a blog post you can add the `draft: true` tag to the yaml header. This will prevent the post from being published to the site.\n\n\nYou can add local images to the blog by:\n![Hamiltonian NN](HNN.png){ width=50% }\n\nYou can add links to other sites by:\n[Homepage](https://webpublishing.oit.ncsu.edu/nail/) \n\nTo add python code to the site, you will need an environment with the packages installed, then you can specify `jupyter: python3` in the qmd yaml . \n\nThen, you can add python code to the blog by:\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![A line plot on a polar axis](index_files/figure-html/fig-polar-output-1.png){#fig-polar width=450 height=439}\n:::\n:::\n\n\nYou can later refer to the figure by @fig-polar\n\n\nYou can write in latex by:\n$$ \\sum_{i=1}^n a_i=0 $$\nYou can even use it inline like this $a_i \\in \\mathbb{R} \\forall i$.\n\n\nThis works for multiline complex equations as well\n$$\n    \\mathbb{1}_{\\mathbb{Q}}(x)=\\lim_{k \\to \\infty}\\left(\\lim_{j \\to \\infty}(\\cos(k!\\pi{x}))^{2j}\\right)=\\begin{cases}\n    1 & \\text{if}\\; x \\in \\mathbb{Q}\\\\\n    0 & \\text{if}\\; x \\notin \\mathbb{Q}\n    \\end{cases}\n$$\n\nYou can also add citations to the blog post by @noauthor_quarto_nodate. This will be automatically added to the bibliography.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

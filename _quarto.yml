@@ -23,12 +23,12 @@ website:
 format:
   html:
     html-math-method: katex
-    theme:
-      light: flatly
-      dark: darkly
+    theme: theme.scss
     css: styles.css
     citations-hover: true
     footnotes-hover: true
+    code-fold: true
+    code-tools: true
 
 
 
