@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>NAIL blogspace</title>
+<link>https://nonlinearartificialintelligencelab.github.io/index.html</link>
+<atom:link href="https://nonlinearartificialintelligencelab.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Rich content for NAIL</description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Tue, 29 Nov 2022 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Blogging with quarto</title>
+  <dc:creator>Anil Radhakrishnan</dc:creator>
+  <link>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To develop a draft of a blog post you can add the <code>draft: true</code> tag to the yaml header. This will prevent the post from being published to the site.</p>
+<p>You can add local images to the blog by: <img src="https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/HNN.png" class="img-fluid" style="width:50.0%" alt="Hamiltonian NN"></p>
+<p>You can add links to other sites by: <a href="https://webpublishing.oit.ncsu.edu/nail/">Homepage</a></p>
+<p>To add python code to the site, you will need an environment with the packages installed, then you can specify <code>jupyter: python3</code> in the qmd yaml .</p>
+<p>Then, you can add python code to the blog by:</p>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> numpy <span class="im" style="color: #00769E;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;">as</span> plt</span>
+<span id="cb1-3"></span>
+<span id="cb1-4">r <span class="op" style="color: #5E5E5E;">=</span> np.arange(<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">2</span>, <span class="fl" style="color: #AD0000;">0.01</span>)</span>
+<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">2</span> <span class="op" style="color: #5E5E5E;">*</span> np.pi <span class="op" style="color: #5E5E5E;">*</span> r</span>
+<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;">=</span> plt.subplots(</span>
+<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;">=</span> {<span class="st" style="color: #20794D;">'projection'</span>: <span class="st" style="color: #20794D;">'polar'</span>} </span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">ax.plot(theta, r)</span>
+<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;">0.5</span>, <span class="dv" style="color: #AD0000;">1</span>, <span class="fl" style="color: #AD0000;">1.5</span>, <span class="dv" style="color: #AD0000;">2</span>])</span>
+<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;">True</span>)</span>
+<span id="cb1-12">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A line plot on a polar axis</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>You can later refer to the figure by Figure&nbsp;1</p>
+<p>You can write in latex by: <img src="https://latex.codecogs.com/png.latex?%20%5Csum_%7Bi=1%7D%5En%20a_i=0%20"> You can even use it inline like this <img src="https://latex.codecogs.com/png.latex?a_i%20%5Cin%20%5Cmathbb%7BR%7D%20%5Cforall%20i">.</p>
+<p>This works for multiline complex equations as well <img src="https://latex.codecogs.com/png.latex?%0A%20%20%20%20%5Cmathbb%7B1%7D_%7B%5Cmathbb%7BQ%7D%7D(x)=%5Clim_%7Bk%20%5Cto%20%5Cinfty%7D%5Cleft(%5Clim_%7Bj%20%5Cto%20%5Cinfty%7D(%5Ccos(k!%5Cpi%7Bx%7D))%5E%7B2j%7D%5Cright)=%5Cbegin%7Bcases%7D%0A%20%20%20%201%20&amp;%20%5Ctext%7Bif%7D%5C;%20x%20%5Cin%20%5Cmathbb%7BQ%7D%5C%5C%0A%20%20%20%200%20&amp;%20%5Ctext%7Bif%7D%5C;%20x%20%5Cnotin%20%5Cmathbb%7BQ%7D%0A%20%20%20%20%5Cend%7Bcases%7D%0A"></p>
+<p>You can also add citations to the blog post by <span class="citation" data-cites="noauthor_quarto_nodate"><span>“Quarto - <span>Citations</span> &amp; <span>Footnotes</span>”</span> (n.d.)</span>. This will be automatically added to the bibliography.</p>
+
+
+<!-- -->
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-noauthor_quarto_nodate" class="csl-entry">
+<span>“Quarto - <span>Citations</span> &amp; <span>Footnotes</span>.”</span> n.d. Accessed November 29, 2022. <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html">https://quarto.org/docs/authoring/footnotes-and-citations.html</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>tutorial</category>
+  <guid>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</guid>
+  <pubDate>Tue, 29 Nov 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/HNN.png" medium="image" type="image/png" height="152" width="144"/>
+</item>
+<item>
+  <title>Welcome to NAIL</title>
+  <dc:creator>Anil Radhakrishnan</dc:creator>
+  <link>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post on this blog. Welcome!</p>
+<p>We are a research group at North Carolina State University interested in using the structure and chaos in physics to improve artificial intelligence systems.</p>
+
+
+<!-- -->
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</guid>
+  <pubDate>Tue, 29 Nov 2022 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/Tutorial/index.html",
+    "href": "posts/Tutorial/index.html",
+    "title": "Blogging with quarto",
+    "section": "",
+    "text": "To develop a draft of a blog post you can add the draft: true tag to the yaml header. This will prevent the post from being published to the site.\nYou can add local images to the blog by: \nYou can add links to other sites by: Homepage\nTo add python code to the site, you will need an environment with the packages installed, then you can specify jupyter: python3 in the qmd yaml .\nThen, you can add python code to the blog by:\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\nYou can later refer to the figure by Figure 1\nYou can write in latex by:  \\sum_{i=1}^n a_i=0  You can even use it inline like this a_i \\in \\mathbb{R} \\forall i.\nThis works for multiline complex equations as well \n    \\mathbb{1}_{\\mathbb{Q}}(x)=\\lim_{k \\to \\infty}\\left(\\lim_{j \\to \\infty}(\\cos(k!\\pi{x}))^{2j}\\right)=\\begin{cases}\n    1 & \\text{if}\\; x \\in \\mathbb{Q}\\\\\n    0 & \\text{if}\\; x \\notin \\mathbb{Q}\n    \\end{cases}\n\nYou can also add citations to the blog post by “Quarto - Citations & Footnotes” (n.d.). This will be automatically added to the bibliography.\n\n\n\n\n\n\nReferences\n\n“Quarto - Citations & Footnotes.” n.d. Accessed November 29, 2022. https://quarto.org/docs/authoring/footnotes-and-citations.html."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to NAIL",
+    "section": "",
+    "text": "This is the first post on this blog. Welcome!\nWe are a research group at North Carolina State University interested in using the structure and chaos in physics to improve artificial intelligence systems."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Rich content blog for the Nonlinear Artificial Intelligence Lab at NC State University."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NAIL blogspace",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\nBlogging with quarto\n\n\n\n\n\n\n\ntutorial\n\n\n\n\n\n\n\n\n\n\n\nNov 29, 2022\n\n\nAnil Radhakrishnan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to NAIL\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 29, 2022\n\n\nAnil Radhakrishnan\n\n\n\n\n\n\nNo matching items"
+  }
+]
