@@ -4,6 +4,7 @@ execute:
   freeze: auto
 
 website:
+  favicon: NAILLogo.png
   title: "NAIL blogspace"
   site-url: https://nonlinearartificialintelligencelab.github.io
   description: "Rich content for NAIL"

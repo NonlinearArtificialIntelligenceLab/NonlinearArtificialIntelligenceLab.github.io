@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</loc>
-    <lastmod>2022-11-30T00:09:29.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</loc>
-    <lastmod>2022-11-30T00:09:30.227Z</lastmod>
-  </url>
-  <url>
     <loc>https://nonlinearartificialintelligencelab.github.io/about.html</loc>
-    <lastmod>2022-11-30T00:09:30.483Z</lastmod>
+    <lastmod>2022-12-08T20:02:29.030Z</lastmod>
   </url>
   <url>
     <loc>https://nonlinearartificialintelligencelab.github.io/index.html</loc>
-    <lastmod>2022-11-30T00:09:30.770Z</lastmod>
+    <lastmod>2022-12-08T20:02:29.794Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nonlinearartificialintelligencelab.github.io/posts/Tutorial/index.html</loc>
+    <lastmod>2022-12-08T20:02:30.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nonlinearartificialintelligencelab.github.io/posts/welcome/index.html</loc>
+    <lastmod>2022-12-08T20:02:30.564Z</lastmod>
   </url>
 </urlset>
