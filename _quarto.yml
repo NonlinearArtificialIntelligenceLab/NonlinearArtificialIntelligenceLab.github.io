@@ -14,7 +14,7 @@ website:
     collapse: true
     right:
       - text: NCSU Home
-        href: https://webpublishing.oit.ncsu.edu/nail/
+        href: https://nail.sciences.ncsu.edu
       - about.qmd
       - icon: github
         href: https://github.com/NonlinearArtificialIntelligenceLab
@@ -28,7 +28,7 @@ website:
   page-footer:
     center: 
       - text: "© 2022 NAIL"
-        href: https://webpublishing.oit.ncsu.edu/nail/
+        href: https://nail.sciences.ncsu.edu
 
 format:
   html:

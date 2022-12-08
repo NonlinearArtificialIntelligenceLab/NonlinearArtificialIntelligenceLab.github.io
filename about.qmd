@@ -6,7 +6,7 @@ about:
   links:
     - icon: bi-house-up
       text: Main Website
-      href: https://webpublishing.oit.ncsu.edu/nail/
+      href: https://nail.sciences.ncsu.edu/
     - icon: github
       text: Github
       href: https://github.com/NonlinearArtificialIntelligenceLab
